@@ -1,0 +1,251 @@
+a{
+    text-decoration: none;
+}
+
+#pubhead{
+    width: 1200px;
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    line-height: 50px;
+    border: 1px solid #000;
+}
+
+#menuico{
+    position: absolute;
+    left: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+/*메인*/
+
+/*헤더 네비게이션*/
+
+.main{
+    border: 1px solid #000;
+    width: 1200px;
+    margin: 0 auto;
+    background-image: url();
+}
+
+header{
+    height: 74px;
+    margin: 20px 0px;
+}
+
+#logo{
+    background: #000;
+    float: left;
+    margin-left:30px;
+}
+
+.mainmenu{
+    width: 1000px;
+    height: 40px;
+    background: #000;
+    float: right;
+    text-align: center;
+    margin: 17px 0px;
+}
+
+.mainmenu>li{
+    display: inline-block;
+    padding: 0px 72px;
+    line-height: 37px;
+}
+
+.mainmenu>li>a{
+    color:white;
+}
+
+.submenu{
+    display: none;
+}
+
+
+/*메인배너*/
+
+#mainbanner{
+    margin: 40px 0px;
+    height: 500px;
+    background-color: skyblue;
+    border-radius: 45px 45px 0 0;
+}
+
+.eventtitle{
+    width: 500px;
+    padding-top: 80px;
+    margin-left: 80px;
+    color: white;
+    float: left;
+}
+
+.eventtitle h2{
+    font-size: 42px;
+    padding-bottom: 40px;
+}
+
+.eventimage{
+    float: right;
+    text-align: right;
+}
+
+.sliderbtn{
+    float: left;
+    padding-top: 200px;
+    margin-left: 80px;
+    color: white;
+}
+
+
+/*대시보드*/
+
+#dashboard{
+    height: 250px;
+}
+
+.notice{
+    width: 429px;
+    height: 223px;
+    margin:24px;
+    float: left;
+    background-image: url('../img/notice.jpg');
+}
+.notice h4{
+    display: none;
+}
+
+.notice table{
+    width: 429px;
+    margin-top: 50px;
+}
+
+.notice table tr{
+    width: 100%;
+    display: inline-block;
+}
+
+.notice table td{
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+.notice table td:first-child{
+    font-style: 0.9em;
+    font-weight: bold;
+    padding: 0px 10px;
+}
+
+.notice table td:last-child{
+    font-size: 0.8em;
+    margin-left: 80px;
+}
+
+
+#gamestart{
+    margin-right: 12px;
+    width: 250px;
+    float: left;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+}
+
+#gamestart img{
+    width: 240px;
+}
+
+
+
+.login{
+    margin-right: 24px;
+    float: right;
+    position: relative;
+    top: 50px;
+}
+
+.login, .loginput, .alterlogin{
+    width: 425px;
+    position: relative;
+}
+
+.loginput input{
+    width: 270px;
+    height: 33px;
+    margin: 2px;
+    border: 1px solid rgb(196, 196, 196);
+    background-color: rgb(242, 242, 242);
+}
+
+.loginput button{
+    border: 1px solid rgb(255, 150, 13);
+    background-color: orange;
+    color: white;
+    position: relative;
+    top: -35px;
+    float: right;
+    width: 149px;
+    height: 70px;
+    cursor: pointer;
+}
+
+.login span{
+    position: absolute;
+    font-size: 0.7em;
+}
+
+.login span, .login span a{
+    color: rgb(43, 43, 43);
+}
+
+.findid, .signin{
+    top: 78px;
+}
+
+.findid, .alter{
+    left: 3px;
+}
+
+.signin{
+    right: 0px;
+}
+
+.alterlogin{
+    margin-top:15px;
+}
+
+div.alterloginbtn{
+    position: absolute;
+    top:-10px;
+    right:0px;
+}
+
+.alterloginbtn button{
+    width:138px;
+    height: 30px;
+    color: white;
+    border: 1px solid rgb(196, 196, 196);
+    font-size: 0.7em;
+}
+
+button#jamitson{
+    background-color: rgb(255, 48, 48);
+    position: relative;
+    left:3px;
+}
+
+button#naver{
+    background-color: rgb(0, 194, 97);
+}
+
+
+/*콘텐츠영역*/
+
+article{
+    border: 1px solid #000;
+}
